@@ -41,7 +41,11 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Home page"), centerTitle: true),
+      appBar: AppBar(
+        title: const Text("Home page"),
+        centerTitle: true,
+        backgroundColor: Colors.blue,
+      ),
       body: Center(
         child: Column(
           children: [
